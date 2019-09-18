@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ibm.websphere.samples.daytrader.web;
+
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -106,13 +106,13 @@ public class TestServlet extends HttpServlet {
              * ().getRequestDispatcher("/tradehome.jsp").include(req, resp);
              * out.write("<BR><BR>done.</BODY>");
              */
-            
+            String variable = null;
+            variable.toString();
             	
             
         } catch (Exception e) {
             Log.error("TestServletException", e);
-            String variable = null;
-            variable.toString();
+            
         }
     }
 }

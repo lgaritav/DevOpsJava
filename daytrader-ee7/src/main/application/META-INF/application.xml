@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
  * (C) Copyright IBM Corporation 2015.
  *
@@ -13,19 +14,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 -->
-<application 
-    xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
   <description>DayTrader Stock Trading Performance Benchmark Sample</description>
   <display-name>DayTrader</display-name>
   <module id="Module_1397771603917">
-  	<web>
-  		<web-uri>daytrader-ee7-web.war</web-uri>
-  		<context-root>/daytrader</context-root>
-  	</web>
+    <web>
+      <web-uri>daytrader-ee7-web.war</web-uri>
+      <context-root>/daytrader</context-root>
+    </web>
   </module>
   <module id="Module_1397771642084">
-  	<ejb>daytrader-ee7-ejb.jar</ejb>
+    <ejb>daytrader-ee7-ejb.jar</ejb>
   </module>
+  <library-directory>lib</library-directory>
 </application>
